@@ -1,5 +1,4 @@
-@charset "UTF-8";
-/* line 1, /home/yuri/Área de Trabalho/sass/scss/style.scss */
+/* line 1, C:/wamp/www/curso/sass/source/scss/style.scss */
 a {
   text-decoration: none;
 }
@@ -7,12 +6,12 @@ a {
 /**
  * Remove list-style
  */
-/* line 9, /home/yuri/Área de Trabalho/sass/scss/style.scss */
+/* line 9, C:/wamp/www/curso/sass/source/scss/style.scss */
 ol, ul {
   list-style: none;
 }
 
-/* line 13, /home/yuri/Área de Trabalho/sass/scss/style.scss */
+/* line 13, C:/wamp/www/curso/sass/source/scss/style.scss */
 html, body, div, span, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a, em, img, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, article, footer, header, nav, section, main {
   margin: 0;
   padding: 0;
@@ -20,21 +19,21 @@ html, body, div, span, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a, em, img
   vertical-align: baseline;
 }
 
-/* line 20, /home/yuri/Área de Trabalho/sass/scss/style.scss */
+/* line 20, C:/wamp/www/curso/sass/source/scss/style.scss */
 h1, h2, h3, h4, h5, h6, p, a, ul {
   font-size: 1em;
   font-weight: normal;
 }
 
 /* fim do normalize*/
-/* line 26, /home/yuri/Área de Trabalho/sass/scss/style.scss */
+/* line 26, C:/wamp/www/curso/sass/source/scss/style.scss */
 *, *:before, *:after {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
 
-/* line 32, /home/yuri/Área de Trabalho/sass/scss/style.scss */
+/* line 32, C:/wamp/www/curso/sass/source/scss/style.scss */
 .container {
   width: 960px;
   margin: 0 auto;
@@ -42,144 +41,145 @@ h1, h2, h3, h4, h5, h6, p, a, ul {
   position: relative;
 }
 
-/* line 39, /home/yuri/Área de Trabalho/sass/scss/style.scss */
+/* line 39, C:/wamp/www/curso/sass/source/scss/style.scss */
 .container:after, .container:before {
   content: " ";
   display: table;
 }
 
-/* line 44, /home/yuri/Área de Trabalho/sass/scss/style.scss */
+/* line 44, C:/wamp/www/curso/sass/source/scss/style.scss */
 .container:after {
   clear: both;
 }
 
-/* line 48, /home/yuri/Área de Trabalho/sass/scss/style.scss */
+/* line 48, C:/wamp/www/curso/sass/source/scss/style.scss */
 .grid-1, .grid-2, .grid-3, .grid-4, .grid-5, .grid-6, .grid-7, .grid-8, .grid-9, .grid-10, .grid-11, .grid-12, .grid-13, .grid-14, .grid-15, .grid-16, .grid-1-3 {
   float: left;
   margin-left: 10px;
   margin-right: 10px;
 }
 
-/* line 54, /home/yuri/Área de Trabalho/sass/scss/style.scss */
+/* line 54, C:/wamp/www/curso/sass/source/scss/style.scss */
 .grid-1 {
   width: 40px;
 }
 
-/* line 55, /home/yuri/Área de Trabalho/sass/scss/style.scss */
+/* line 55, C:/wamp/www/curso/sass/source/scss/style.scss */
 .grid-2 {
   width: 100px;
 }
 
-/* line 56, /home/yuri/Área de Trabalho/sass/scss/style.scss */
+/* line 56, C:/wamp/www/curso/sass/source/scss/style.scss */
 .grid-3 {
   width: 160px;
 }
 
-/* line 57, /home/yuri/Área de Trabalho/sass/scss/style.scss */
+/* line 57, C:/wamp/www/curso/sass/source/scss/style.scss */
 .grid-4 {
   width: 220px;
 }
 
-/* line 58, /home/yuri/Área de Trabalho/sass/scss/style.scss */
+/* line 58, C:/wamp/www/curso/sass/source/scss/style.scss */
 .grid-5 {
   width: 280px;
 }
 
-/* line 59, /home/yuri/Área de Trabalho/sass/scss/style.scss */
+/* line 59, C:/wamp/www/curso/sass/source/scss/style.scss */
 .grid-6 {
   width: 340px;
 }
 
-/* line 60, /home/yuri/Área de Trabalho/sass/scss/style.scss */
+/* line 60, C:/wamp/www/curso/sass/source/scss/style.scss */
 .grid-7 {
   width: 400px;
 }
 
-/* line 61, /home/yuri/Área de Trabalho/sass/scss/style.scss */
+/* line 61, C:/wamp/www/curso/sass/source/scss/style.scss */
 .grid-8 {
   width: 460px;
 }
 
-/* line 62, /home/yuri/Área de Trabalho/sass/scss/style.scss */
+/* line 62, C:/wamp/www/curso/sass/source/scss/style.scss */
 .grid-9 {
   width: 520px;
 }
 
-/* line 63, /home/yuri/Área de Trabalho/sass/scss/style.scss */
+/* line 63, C:/wamp/www/curso/sass/source/scss/style.scss */
 .grid-10 {
   width: 580px;
 }
 
-/* line 64, /home/yuri/Área de Trabalho/sass/scss/style.scss */
+/* line 64, C:/wamp/www/curso/sass/source/scss/style.scss */
 .grid-11 {
   width: 640px;
 }
 
-/* line 65, /home/yuri/Área de Trabalho/sass/scss/style.scss */
+/* line 65, C:/wamp/www/curso/sass/source/scss/style.scss */
 .grid-12 {
   width: 700px;
 }
 
-/* line 66, /home/yuri/Área de Trabalho/sass/scss/style.scss */
+/* line 66, C:/wamp/www/curso/sass/source/scss/style.scss */
 .grid-13 {
   width: 760px;
 }
 
-/* line 67, /home/yuri/Área de Trabalho/sass/scss/style.scss */
+/* line 67, C:/wamp/www/curso/sass/source/scss/style.scss */
 .grid-14 {
   width: 820px;
 }
 
-/* line 68, /home/yuri/Área de Trabalho/sass/scss/style.scss */
+/* line 68, C:/wamp/www/curso/sass/source/scss/style.scss */
 .grid-15 {
   width: 880px;
 }
 
-/* line 69, /home/yuri/Área de Trabalho/sass/scss/style.scss */
+/* line 69, C:/wamp/www/curso/sass/source/scss/style.scss */
 .grid-16 {
   width: 940px;
 }
 
-/* line 70, /home/yuri/Área de Trabalho/sass/scss/style.scss */
+/* line 70, C:/wamp/www/curso/sass/source/scss/style.scss */
 .grid-1-3 {
   width: 300px;
 }
 
 /* fim do grid*/
-/* line 74, /home/yuri/Área de Trabalho/sass/scss/style.scss */
+/* line 74, C:/wamp/www/curso/sass/source/scss/style.scss */
 body {
   background: #f8f8ff;
 }
 
-/* line 81, /home/yuri/Área de Trabalho/sass/scss/style.scss */
+/* line 81, C:/wamp/www/curso/sass/source/scss/style.scss */
 h1, h2 {
   text-align: center;
 }
 
-/* line 84, /home/yuri/Área de Trabalho/sass/scss/style.scss */
+/* line 84, C:/wamp/www/curso/sass/source/scss/style.scss */
 h1 {
   font-size: 72px;
   margin-bottom: 40px;
 }
 
-/* line 90, /home/yuri/Área de Trabalho/sass/scss/style.scss */
+/* line 90, C:/wamp/www/curso/sass/source/scss/style.scss */
 h2 {
   font-size: 36px;
   margin-bottom: 20px;
   font-family: sans-serif;
 }
 
-/* line 97, /home/yuri/Área de Trabalho/sass/scss/style.scss */
+/* line 97, C:/wamp/www/curso/sass/source/scss/style.scss */
 p {
-  font-family: sans-serif;
+  font-family: serif;
   line-height: 22px;
+  font-size: 20px;
 }
 
-/* line 102, /home/yuri/Área de Trabalho/sass/scss/style.scss */
+/* line 103, C:/wamp/www/curso/sass/source/scss/style.scss */
 .logo {
   color: brown;
   font-size: 260px;
-  border-bottom: 5px solid black;
+  text-align: center;
 }
 
 /*# sourceMappingURL=../css/style.map */
