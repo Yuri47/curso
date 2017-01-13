@@ -1,14 +1,112 @@
 @import 'reset';
 @import 'grid';
 
+*, *:before, *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+div {
+    display: block;
+}
+html,
 body {
-    body {
-    background-color: red;
+  height:100%
+} // tem que colocar essa porra senão o min-height 100% nao funciona.
+
+body {
+  
+    background-color: #f2f2f2; 
     font-family: "Lato";
     font-weight: 300;
     font-size: 16px;
     color: #555;
     -webkit-font-smoothing: antialiased;
     -webkit-overflow-scrolling: touch;
+    text-align: center;
 }
+
+.menu-mobile {
+    display: none;
 }
+
+nav {
+    background-color: rgba(0,0,0, 0.1);
+    height: 50px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 65956;
+}
+nav ul {
+    padding-top: 10px;
+}
+nav ul li {
+    display: inline-block;
+   
+    font-size: 1.9em;
+    margin: 0 20px;
+    
+    
+}
+nav ul li a {
+    text-decoration: none;
+    color: #e4e4e4;
+    padding: 15px;
+     
+}
+
+.introducao {
+ 
+   background-image: url(/img/imgHeader.jpg); 
+  
+    padding-top:  60px;
+    
+    background-position: center;
+    background-attachment: fixed !important;
+      
+    background-size: cover; 
+    min-height: 100%; 
+}
+
+.introducao h1 { 
+    color: #fff; 
+    font-size: 120px;   
+       
+}
+.introducao h3 { 
+    color: #fff; 
+    font-size: 30px; 
+    
+         
+}
+
+.container-menu {
+     position: absolute;
+    top: 50%;
+    left: 25%;
+    width: 50%;
+    text-align: center;
+    -webkit-transform: translateY( -50% );
+    -moz-transform: translateY( -50% );
+    transform: translateY( -50% ); 
+    
+}
+
+
+ 
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
