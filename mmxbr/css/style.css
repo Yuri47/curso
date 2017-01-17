@@ -211,12 +211,12 @@ table {
 
 /* line 112, C:/Users/Manut/Desktop/curso/mmxbr/scss/_grid.scss */
 .container {
-  max-width: 960px;
+  max-width: 1280px;
   margin: 0px auto;
   position: relative;
 }
 
-@media screen and (min-width: 760px) and (max-width: 959px) {
+@media screen and (min-width: 760px) and (max-width: 1279px) {
   /* line 112, C:/Users/Manut/Desktop/curso/mmxbr/scss/_grid.scss */
   .container {
     max-width: 760px;
@@ -261,42 +261,62 @@ table {
   clear: both;
 }
 
-/* line 4, C:/Users/Manut/Desktop/curso/mmxbr/scss/style.scss */
+@font-face {
+  font-family: "Lato";
+  src: url("../font/Lato-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Lato-HairLine";
+  src: url("../font/Lato-HairLine.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Lato-Light";
+  src: url("../font/Lato-Light.ttf") format("truetype");
+}
+
+/* line 17, C:/Users/Manut/Desktop/curso/mmxbr/scss/style.scss */
 *, *:before, *:after {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
 
-/* line 9, C:/Users/Manut/Desktop/curso/mmxbr/scss/style.scss */
+/* line 22, C:/Users/Manut/Desktop/curso/mmxbr/scss/style.scss */
 div {
   display: block;
 }
 
-/* line 12, C:/Users/Manut/Desktop/curso/mmxbr/scss/style.scss */
+/* line 25, C:/Users/Manut/Desktop/curso/mmxbr/scss/style.scss */
 html,
 body {
   height: 100%;
 }
 
-/* line 17, C:/Users/Manut/Desktop/curso/mmxbr/scss/style.scss */
+/* line 30, C:/Users/Manut/Desktop/curso/mmxbr/scss/style.scss */
 body {
   background-color: #f2f2f2;
   font-family: "Lato";
   font-weight: 300;
   font-size: 16px;
-  color: #555;
+  color: #333;
   -webkit-font-smoothing: antialiased;
   -webkit-overflow-scrolling: touch;
   text-align: center;
 }
 
-/* line 29, C:/Users/Manut/Desktop/curso/mmxbr/scss/style.scss */
+/* line 42, C:/Users/Manut/Desktop/curso/mmxbr/scss/style.scss */
+.container {
+  width: 1280px;
+}
+
+/* line 46, C:/Users/Manut/Desktop/curso/mmxbr/scss/style.scss */
 .menu-mobile {
   display: none;
 }
 
-/* line 33, C:/Users/Manut/Desktop/curso/mmxbr/scss/style.scss */
+/* line 50, C:/Users/Manut/Desktop/curso/mmxbr/scss/style.scss */
 nav {
   background-color: rgba(0, 0, 0, 0.1);
   height: 50px;
@@ -307,26 +327,27 @@ nav {
   z-index: 65956;
 }
 
-/* line 42, C:/Users/Manut/Desktop/curso/mmxbr/scss/style.scss */
+/* line 59, C:/Users/Manut/Desktop/curso/mmxbr/scss/style.scss */
 nav ul {
   padding-top: 10px;
 }
 
-/* line 45, C:/Users/Manut/Desktop/curso/mmxbr/scss/style.scss */
+/* line 62, C:/Users/Manut/Desktop/curso/mmxbr/scss/style.scss */
 nav ul li {
   display: inline-block;
   font-size: 1.9em;
   margin: 0 20px;
 }
 
-/* line 53, C:/Users/Manut/Desktop/curso/mmxbr/scss/style.scss */
+/* line 70, C:/Users/Manut/Desktop/curso/mmxbr/scss/style.scss */
 nav ul li a {
   text-decoration: none;
   color: #e4e4e4;
   padding: 15px;
+  font-family: 'Lato-HairLine';
 }
 
-/* line 60, C:/Users/Manut/Desktop/curso/mmxbr/scss/style.scss */
+/* line 79, C:/Users/Manut/Desktop/curso/mmxbr/scss/style.scss */
 .introducao {
   background-image: url(/img/imgHeader.jpg);
   padding-top: 60px;
@@ -336,19 +357,22 @@ nav ul li a {
   min-height: 100%;
 }
 
-/* line 73, C:/Users/Manut/Desktop/curso/mmxbr/scss/style.scss */
+/* line 92, C:/Users/Manut/Desktop/curso/mmxbr/scss/style.scss */
 .introducao h1 {
   color: #fff;
   font-size: 120px;
+  font-weight: 200;
+  font-family: 'Lato-HairLine';
 }
 
-/* line 78, C:/Users/Manut/Desktop/curso/mmxbr/scss/style.scss */
+/* line 100, C:/Users/Manut/Desktop/curso/mmxbr/scss/style.scss */
 .introducao h3 {
   color: #fff;
   font-size: 30px;
+  font-weight: 200;
 }
 
-/* line 85, C:/Users/Manut/Desktop/curso/mmxbr/scss/style.scss */
+/* line 108, C:/Users/Manut/Desktop/curso/mmxbr/scss/style.scss */
 .container-menu {
   position: absolute;
   top: 50%;
@@ -358,6 +382,89 @@ nav ul li a {
   -webkit-transform: translateY(-50%);
   -moz-transform: translateY(-50%);
   transform: translateY(-50%);
+}
+
+/* line 120, C:/Users/Manut/Desktop/curso/mmxbr/scss/style.scss */
+h3 {
+  font-family: 'Lato-HairLine';
+  font-size: 36px;
+  font-weight: 100;
+}
+
+/* line 127, C:/Users/Manut/Desktop/curso/mmxbr/scss/style.scss */
+p {
+  font-family: 'Lato-Light';
+  font-size: 18px;
+  line-height: 27px;
+}
+
+/* line 137, C:/Users/Manut/Desktop/curso/mmxbr/scss/style.scss */
+.secao {
+  margin-top: 50px;
+}
+
+/* line 143, C:/Users/Manut/Desktop/curso/mmxbr/scss/style.scss */
+.titulo p {
+  text-align: left;
+  padding-top: 20px;
+}
+
+/* line 147, C:/Users/Manut/Desktop/curso/mmxbr/scss/style.scss */
+.titulo img {
+  width: 400px;
+}
+
+/* line 150, C:/Users/Manut/Desktop/curso/mmxbr/scss/style.scss */
+.titulo button {
+  margin-top: 20px;
+}
+
+/* line 153, C:/Users/Manut/Desktop/curso/mmxbr/scss/style.scss */
+.titulo h1 {
+  font-size: 80px;
+  font-family: 'Lato-HairLine';
+  padding-bottom: 30px;
+}
+
+/* line 158, C:/Users/Manut/Desktop/curso/mmxbr/scss/style.scss */
+.botao {
+  font-size: 22px;
+  font-family: 'Lato';
+  padding: 12px;
+  background-color: transparent;
+  border: solid 2px #333;
+  color: #333;
+  transition: 0.5s;
+}
+
+/* line 167, C:/Users/Manut/Desktop/curso/mmxbr/scss/style.scss */
+.botao:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+  transition: 0.5s;
+  cursor: pointer;
+  color: #fff;
+}
+
+/* line 173, C:/Users/Manut/Desktop/curso/mmxbr/scss/style.scss */
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  padding: 0;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+/* line 183, C:/Users/Manut/Desktop/curso/mmxbr/scss/style.scss */
+.secao p {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+/* line 187, C:/Users/Manut/Desktop/curso/mmxbr/scss/style.scss */
+.imgServico {
+  max-height: 120px;
 }
 
 /*# sourceMappingURL=../css/style.map */

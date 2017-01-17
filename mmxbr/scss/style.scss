@@ -1,6 +1,19 @@
 @import 'reset';
 @import 'grid';
 
+@font-face {
+    font-family: "Lato";
+    src: url("../font/Lato-Regular.ttf") format('truetype');
+}
+@font-face {
+    font-family: "Lato-HairLine";
+    src: url("../font/Lato-HairLine.ttf") format('truetype');
+}
+@font-face {
+    font-family: "Lato-Light";
+    src: url("../font/Lato-Light.ttf") format('truetype');
+}
+
 *, *:before, *:after {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -20,10 +33,14 @@ body {
     font-family: "Lato";
     font-weight: 300;
     font-size: 16px;
-    color: #555;
+    color: #333;
     -webkit-font-smoothing: antialiased;
     -webkit-overflow-scrolling: touch;
     text-align: center;
+}
+
+.container {
+    width: 1280px;
 }
 
 .menu-mobile {
@@ -54,6 +71,8 @@ nav ul li a {
     text-decoration: none;
     color: #e4e4e4;
     padding: 15px;
+    font-family: 'Lato-HairLine';
+    
      
 }
 
@@ -73,11 +92,15 @@ nav ul li a {
 .introducao h1 { 
     color: #fff; 
     font-size: 120px;   
+    font-weight: 200;
+    font-family: 'Lato-HairLine';
+    
        
 }
 .introducao h3 { 
     color: #fff; 
     font-size: 30px; 
+    font-weight: 200;
     
          
 }
@@ -94,11 +117,80 @@ nav ul li a {
     
 }
 
-
+h3 {
+    font-family: 'Lato-HairLine';
+    font-size: 36px;
+    font-weight: 100;  
+   
+}
  
+p {
+    font-family: 'Lato-Light';
+    font-size: 18px;
+    line-height: 27px;
+}
 
+.titulo {
+     
+    
+}
+.secao {
+     
+    margin-top: 50px;
+      
+}
 
- 
+.titulo  p {
+    text-align: left;
+    padding-top: 20px;
+}
+.titulo img{
+    width: 400px;
+}
+.titulo button {
+    margin-top: 20px;
+}
+.titulo h1 {
+    font-size: 80px;
+    font-family: 'Lato-HairLine';
+    padding-bottom: 30px;
+}
+.botao {
+    font-size: 22px; 
+    font-family: 'Lato';
+    padding: 12px; 
+    background-color: rgba(0,0,0,0.0);
+    border: solid 2px #333;
+    color: #333; 
+    transition: 0.5s;
+}
+.botao:hover {
+    background-color: rgba(0,0,0,0.1);
+    transition: 0.5s;
+    cursor: pointer;
+    color: #fff; 
+}
+hr {
+        display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    
+    padding: 0;
+     margin-top: 60px;
+    margin-bottom: 60px;
+}
+.secao p{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.imgServico {
+    max-height: 120px;
+    
+}
+.servico {
+    //coloca a altura fixa dos serviços
+}
 
 
 
