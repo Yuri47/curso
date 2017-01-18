@@ -294,7 +294,7 @@ body {
   height: 100%;
 }
 
-/* line 30, C:/Users/Manut/Desktop/curso/mmxbr/scss/style.scss */
+/* line 31, C:/Users/Manut/Desktop/curso/mmxbr/scss/style.scss */
 body {
   background-color: #f2f2f2;
   font-family: "Lato";
@@ -306,19 +306,19 @@ body {
   text-align: center;
 }
 
-/* line 42, C:/Users/Manut/Desktop/curso/mmxbr/scss/style.scss */
+/* line 43, C:/Users/Manut/Desktop/curso/mmxbr/scss/style.scss */
 .container {
   width: 1280px;
 }
 
-/* line 46, C:/Users/Manut/Desktop/curso/mmxbr/scss/style.scss */
+/* line 47, C:/Users/Manut/Desktop/curso/mmxbr/scss/style.scss */
 .menu-mobile {
   display: none;
 }
 
-/* line 50, C:/Users/Manut/Desktop/curso/mmxbr/scss/style.scss */
+/* line 51, C:/Users/Manut/Desktop/curso/mmxbr/scss/style.scss */
 nav {
-  background-color: rgba(0, 0, 0, 0.1);
+  background-color: rgba(0, 0, 0, 0.5);
   height: 50px;
   position: fixed;
   top: 0;
@@ -327,19 +327,16 @@ nav {
   z-index: 65956;
 }
 
-/* line 59, C:/Users/Manut/Desktop/curso/mmxbr/scss/style.scss */
-nav ul {
-  padding-top: 10px;
-}
-
-/* line 62, C:/Users/Manut/Desktop/curso/mmxbr/scss/style.scss */
+/* line 63, C:/Users/Manut/Desktop/curso/mmxbr/scss/style.scss */
 nav ul li {
   display: inline-block;
   font-size: 1.9em;
   margin: 0 20px;
+  height: 50px;
+  padding-top: 10px;
 }
 
-/* line 70, C:/Users/Manut/Desktop/curso/mmxbr/scss/style.scss */
+/* line 73, C:/Users/Manut/Desktop/curso/mmxbr/scss/style.scss */
 nav ul li a {
   text-decoration: none;
   color: #e4e4e4;
@@ -347,7 +344,12 @@ nav ul li a {
   font-family: 'Lato-HairLine';
 }
 
-/* line 79, C:/Users/Manut/Desktop/curso/mmxbr/scss/style.scss */
+/* line 81, C:/Users/Manut/Desktop/curso/mmxbr/scss/style.scss */
+nav ul li:hover {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+/* line 88, C:/Users/Manut/Desktop/curso/mmxbr/scss/style.scss */
 .introducao {
   background-image: url(/img/imgHeader.jpg);
   padding-top: 60px;
@@ -357,7 +359,7 @@ nav ul li a {
   min-height: 100%;
 }
 
-/* line 92, C:/Users/Manut/Desktop/curso/mmxbr/scss/style.scss */
+/* line 101, C:/Users/Manut/Desktop/curso/mmxbr/scss/style.scss */
 .introducao h1 {
   color: #fff;
   font-size: 120px;
@@ -365,14 +367,14 @@ nav ul li a {
   font-family: 'Lato-HairLine';
 }
 
-/* line 100, C:/Users/Manut/Desktop/curso/mmxbr/scss/style.scss */
+/* line 109, C:/Users/Manut/Desktop/curso/mmxbr/scss/style.scss */
 .introducao h3 {
   color: #fff;
   font-size: 30px;
   font-weight: 200;
 }
 
-/* line 108, C:/Users/Manut/Desktop/curso/mmxbr/scss/style.scss */
+/* line 117, C:/Users/Manut/Desktop/curso/mmxbr/scss/style.scss */
 .container-menu {
   position: absolute;
   top: 50%;
@@ -384,49 +386,49 @@ nav ul li a {
   transform: translateY(-50%);
 }
 
-/* line 120, C:/Users/Manut/Desktop/curso/mmxbr/scss/style.scss */
+/* line 129, C:/Users/Manut/Desktop/curso/mmxbr/scss/style.scss */
 h3 {
-  font-family: 'Lato-HairLine';
+  font-family: 'Lato-Light';
   font-size: 36px;
   font-weight: 100;
 }
 
-/* line 127, C:/Users/Manut/Desktop/curso/mmxbr/scss/style.scss */
+/* line 136, C:/Users/Manut/Desktop/curso/mmxbr/scss/style.scss */
 p {
   font-family: 'Lato-Light';
   font-size: 18px;
   line-height: 27px;
 }
 
-/* line 137, C:/Users/Manut/Desktop/curso/mmxbr/scss/style.scss */
+/* line 146, C:/Users/Manut/Desktop/curso/mmxbr/scss/style.scss */
 .secao {
   margin-top: 50px;
 }
 
-/* line 143, C:/Users/Manut/Desktop/curso/mmxbr/scss/style.scss */
+/* line 152, C:/Users/Manut/Desktop/curso/mmxbr/scss/style.scss */
 .titulo p {
   text-align: left;
   padding-top: 20px;
 }
 
-/* line 147, C:/Users/Manut/Desktop/curso/mmxbr/scss/style.scss */
+/* line 156, C:/Users/Manut/Desktop/curso/mmxbr/scss/style.scss */
 .titulo img {
   width: 400px;
 }
 
-/* line 150, C:/Users/Manut/Desktop/curso/mmxbr/scss/style.scss */
+/* line 159, C:/Users/Manut/Desktop/curso/mmxbr/scss/style.scss */
 .titulo button {
   margin-top: 20px;
 }
 
-/* line 153, C:/Users/Manut/Desktop/curso/mmxbr/scss/style.scss */
+/* line 162, C:/Users/Manut/Desktop/curso/mmxbr/scss/style.scss */
 .titulo h1 {
   font-size: 80px;
   font-family: 'Lato-HairLine';
   padding-bottom: 30px;
 }
 
-/* line 158, C:/Users/Manut/Desktop/curso/mmxbr/scss/style.scss */
+/* line 167, C:/Users/Manut/Desktop/curso/mmxbr/scss/style.scss */
 .botao {
   font-size: 22px;
   font-family: 'Lato';
@@ -437,15 +439,15 @@ p {
   transition: 0.5s;
 }
 
-/* line 167, C:/Users/Manut/Desktop/curso/mmxbr/scss/style.scss */
+/* line 176, C:/Users/Manut/Desktop/curso/mmxbr/scss/style.scss */
 .botao:hover {
-  background-color: rgba(0, 0, 0, 0.1);
+  background-color: rgba(0, 0, 0, 0.5);
   transition: 0.5s;
   cursor: pointer;
-  color: #fff;
+  color: #f2f2f2;
 }
 
-/* line 173, C:/Users/Manut/Desktop/curso/mmxbr/scss/style.scss */
+/* line 182, C:/Users/Manut/Desktop/curso/mmxbr/scss/style.scss */
 hr {
   display: block;
   height: 1px;
@@ -456,15 +458,105 @@ hr {
   margin-bottom: 60px;
 }
 
-/* line 183, C:/Users/Manut/Desktop/curso/mmxbr/scss/style.scss */
+/* line 192, C:/Users/Manut/Desktop/curso/mmxbr/scss/style.scss */
 .secao p {
   padding-left: 10px;
   padding-right: 10px;
 }
 
-/* line 187, C:/Users/Manut/Desktop/curso/mmxbr/scss/style.scss */
+/* line 196, C:/Users/Manut/Desktop/curso/mmxbr/scss/style.scss */
+.imgServicoDiv {
+  height: 130px;
+  overflow: hidden;
+}
+
+/* line 200, C:/Users/Manut/Desktop/curso/mmxbr/scss/style.scss */
 .imgServico {
   max-height: 120px;
+  max-width: auto;
+  margin-top: 10px;
+}
+
+/* line 207, C:/Users/Manut/Desktop/curso/mmxbr/scss/style.scss */
+.servico {
+  display: inline-block;
+  float: none;
+  width: 400px;
+  margin-bottom: 20px;
+  border: solid 2px #f2f2f2;
+}
+
+/* line 216, C:/Users/Manut/Desktop/curso/mmxbr/scss/style.scss */
+.servico:hover {
+  border: solid 2px #333;
+}
+
+/* line 220, C:/Users/Manut/Desktop/curso/mmxbr/scss/style.scss */
+.servico a {
+  text-decoration: none;
+  color: #333;
+  font-family: 'Lato-HairLine';
+}
+
+/* line 225, C:/Users/Manut/Desktop/curso/mmxbr/scss/style.scss */
+.tituloh3 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  height: 72px;
+}
+
+/* line 231, C:/Users/Manut/Desktop/curso/mmxbr/scss/style.scss */
+.descricaoP {
+  height: 85px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  overflow: hidden;
+}
+
+/* line 240, C:/Users/Manut/Desktop/curso/mmxbr/scss/style.scss */
+.botaoServico {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+/* line 244, C:/Users/Manut/Desktop/curso/mmxbr/scss/style.scss */
+.row {
+  text-align: center;
+}
+
+/* line 248, C:/Users/Manut/Desktop/curso/mmxbr/scss/style.scss */
+.showcase {
+  background-image: url(/img/imgHeader.jpg);
+  padding-top: 60px;
+  background-position: center;
+  background-attachment: fixed !important;
+  background-size: cover;
+  height: 400px;
+  position: relative;
+}
+
+/* line 260, C:/Users/Manut/Desktop/curso/mmxbr/scss/style.scss */
+.showcase h3 {
+  color: #f2f2f2;
+}
+
+/* line 263, C:/Users/Manut/Desktop/curso/mmxbr/scss/style.scss */
+.showcase .botao {
+  color: #f2f2f2;
+  border: solid 2px #f2f2f2;
+  margin-top: 20px;
+}
+
+/* line 268, C:/Users/Manut/Desktop/curso/mmxbr/scss/style.scss */
+.showcase-container {
+  position: absolute;
+  top: 50%;
+  left: 25%;
+  width: 50%;
+  text-align: center;
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  transform: translateY(-50%);
 }
 
 /*# sourceMappingURL=../css/style.map */

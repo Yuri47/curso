@@ -26,10 +26,11 @@ html,
 body {
   height:100%
 } // tem que colocar essa porra senão o min-height 100% nao funciona.
+$corBackground: #f2f2f2; 
 
 body {
   
-    background-color: #f2f2f2; 
+    background-color: $corBackground; 
     font-family: "Lato";
     font-weight: 300;
     font-size: 16px;
@@ -48,7 +49,7 @@ body {
 }
 
 nav {
-    background-color: rgba(0,0,0, 0.1);
+    background-color: rgba(0,0,0, 0.5);
     height: 50px;
     position: fixed;
     top: 0;
@@ -57,14 +58,16 @@ nav {
     z-index: 65956;
 }
 nav ul {
-    padding-top: 10px;
+   
 }
 nav ul li {
     display: inline-block;
    
     font-size: 1.9em;
     margin: 0 20px;
-    
+   
+     height: 50px;
+     padding-top: 10px;
     
 }
 nav ul li a {
@@ -72,9 +75,15 @@ nav ul li a {
     color: #e4e4e4;
     padding: 15px;
     font-family: 'Lato-HairLine';
-    
+     
      
 }
+nav ul li:hover {
+    
+     background-color: rgba(0,0,0, 0.3);
+     
+}
+
 
 .introducao {
  
@@ -106,7 +115,7 @@ nav ul li a {
 }
 
 .container-menu {
-     position: absolute;
+    position: absolute;
     top: 50%;
     left: 25%;
     width: 50%;
@@ -118,7 +127,7 @@ nav ul li a {
 }
 
 h3 {
-    font-family: 'Lato-HairLine';
+    font-family: 'Lato-Light';
     font-size: 36px;
     font-weight: 100;  
    
@@ -165,10 +174,10 @@ p {
     transition: 0.5s;
 }
 .botao:hover {
-    background-color: rgba(0,0,0,0.1);
+    background-color: rgba(0,0,0,0.5);
     transition: 0.5s;
     cursor: pointer;
-    color: #fff; 
+    color: $corBackground; 
 }
 hr {
         display: block;
@@ -184,20 +193,90 @@ hr {
     padding-left: 10px;
     padding-right: 10px;
 }
+.imgServicoDiv {
+    height: 130px;
+    overflow: hidden;
+}
 .imgServico {
     max-height: 120px;
+    max-width: auto;
+    
+     margin-top: 10px;
     
 }
 .servico {
-    //coloca a altura fixa dos serviços
+    //coloca a altura fixa dos serviços 
+    display:  inline-block;
+    float: none;
+    width: 400px;
+    margin-bottom: 20px;
+    border: solid 2px $corBackground;
+        
+}
+.servico:hover {
+    border: solid 2px #333;
+    
+}
+.servico a {
+    text-decoration: none;
+    color: #333;
+    font-family: 'Lato-HairLine';
+}
+.tituloh3 {
+     
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 72px;
+}
+.descricaoP {
+    
+    height: 85px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+    overflow: hidden;
+     
+}
+.botaoServico {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.row {
+    text-align: center;
 }
 
-
-
-
-
-
-
+.showcase { 
+   background-image: url(/img/imgHeader.jpg); 
+  
+    padding-top:  60px;
+    
+    background-position: center;
+    background-attachment: fixed !important;
+      
+    background-size: cover; 
+    height: 400px;
+    position: relative;
+} 
+.showcase h3 {
+    color: #f2f2f2;
+}
+.showcase .botao {
+    color: $corBackground;
+    border: solid 2px $corBackground;
+    margin-top: 20px;
+}
+.showcase-container {
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    width: 50%;
+    text-align: center;
+    -webkit-transform: translateY( -50% );
+    -moz-transform: translateY( -50% );
+    transform: translateY( -50% ); 
+}
+ 
+ 
 
 
 
