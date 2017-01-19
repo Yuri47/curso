@@ -559,4 +559,44 @@ hr {
   transform: translateY(-50%);
 }
 
+/* line 278, C:/Users/Manut/Desktop/curso/mmxbr/scss/style.scss */
+.rodape {
+  background-color: #2f2f2f;
+  height: 600px;
+}
+
+/* line 283, C:/Users/Manut/Desktop/curso/mmxbr/scss/style.scss */
+.rodape .container {
+  padding-top: 50px;
+  color: #f2f2f2;
+  text-align: left;
+  font-family: 'Lato-Light';
+  line-height: 24px;
+}
+
+/* line 291, C:/Users/Manut/Desktop/curso/mmxbr/scss/style.scss */
+.container address {
+  max-width: 340px;
+  padding: 20px 0;
+}
+
+/* line 299, C:/Users/Manut/Desktop/curso/mmxbr/scss/style.scss */
+.formulario input {
+  width: 100%;
+  padding-left: 10px;
+  height: 2.5em;
+}
+
+/* line 307, C:/Users/Manut/Desktop/curso/mmxbr/scss/style.scss */
+.form-group {
+  width: 90%;
+  padding: 10px 0px;
+}
+
+/* line 311, C:/Users/Manut/Desktop/curso/mmxbr/scss/style.scss */
+.formulario .botao {
+  color: #f2f2f2;
+  border: solid 2px #f2f2f2;
+}
+
 /*# sourceMappingURL=../css/style.map */

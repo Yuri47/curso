@@ -275,7 +275,45 @@ hr {
     -moz-transform: translateY( -50% );
     transform: translateY( -50% ); 
 }
- 
+.rodape {
+    background-color: #2f2f2f;
+    height: 600px;
+   
+} 
+.rodape .container {
+    padding-top: 50px;
+    color: #f2f2f2;
+    text-align: left;
+    font-family: 'Lato-Light';
+    line-height: 24px;
+     
+}
+.container address {
+    max-width: 340px;
+    padding: 20px 0;
+}
+
+ .grid-7 {
+   
+}
+.formulario input {
+    width: 100%;
+    padding-left: 10px;
+    height: 2.5em;
+}
+.formulario label {
+     
+}
+.form-group {
+    width: 90%;
+    padding: 10px 0px;
+}
+.formulario .botao {
+    color: $corBackground;
+    border: solid 2px $corBackground;
+     
+}
+
  
 
 
