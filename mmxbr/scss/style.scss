@@ -141,8 +141,8 @@ p {
 
 .titulo {
      
-    
-}
+    margin: 0;
+}   
 .secao {
      
     margin-top: 50px;
@@ -288,6 +288,9 @@ hr {
     line-height: 24px;
      
 }
+.rodape .container h3 {
+    line-height: 32px;
+}
 .container address {
     max-width: 340px;
     padding: 20px 0;
@@ -301,6 +304,11 @@ hr {
     padding-left: 10px;
     height: 2.5em;
 }
+.formulario textarea {
+    width: 100%;
+    padding-left: 10px;
+    height: 6em;
+}
 .formulario label {
      
 }
@@ -311,10 +319,31 @@ hr {
 .formulario .botao {
     color: $corBackground;
     border: solid 2px $corBackground;
-     
+    padding-top: 10px;
+}
+.fimDoSite {
+    background-color: #222;
+    height: 80px;
+    color: #4e4e4e;
+}
+.fimDoSite a {
+    color: #6e6e6e;
+}
+.fimDoSite p{
+    padding-top: 10px;
 }
 
- 
+
+
+@import 'responsiveTablet';
+@import 'responsiveMobile';
+
+
+
+
+
+
+
 
 
 

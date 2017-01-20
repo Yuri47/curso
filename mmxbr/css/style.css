@@ -400,6 +400,11 @@ p {
   line-height: 27px;
 }
 
+/* line 142, C:/Users/Manut/Desktop/curso/mmxbr/scss/style.scss */
+.titulo {
+  margin: 0;
+}
+
 /* line 146, C:/Users/Manut/Desktop/curso/mmxbr/scss/style.scss */
 .secao {
   margin-top: 50px;
@@ -575,12 +580,17 @@ hr {
 }
 
 /* line 291, C:/Users/Manut/Desktop/curso/mmxbr/scss/style.scss */
+.rodape .container h3 {
+  line-height: 32px;
+}
+
+/* line 294, C:/Users/Manut/Desktop/curso/mmxbr/scss/style.scss */
 .container address {
   max-width: 340px;
   padding: 20px 0;
 }
 
-/* line 299, C:/Users/Manut/Desktop/curso/mmxbr/scss/style.scss */
+/* line 302, C:/Users/Manut/Desktop/curso/mmxbr/scss/style.scss */
 .formulario input {
   width: 100%;
   padding-left: 10px;
@@ -588,15 +598,95 @@ hr {
 }
 
 /* line 307, C:/Users/Manut/Desktop/curso/mmxbr/scss/style.scss */
+.formulario textarea {
+  width: 100%;
+  padding-left: 10px;
+  height: 6em;
+}
+
+/* line 315, C:/Users/Manut/Desktop/curso/mmxbr/scss/style.scss */
 .form-group {
   width: 90%;
   padding: 10px 0px;
 }
 
-/* line 311, C:/Users/Manut/Desktop/curso/mmxbr/scss/style.scss */
+/* line 319, C:/Users/Manut/Desktop/curso/mmxbr/scss/style.scss */
 .formulario .botao {
   color: #f2f2f2;
   border: solid 2px #f2f2f2;
+  padding-top: 10px;
+}
+
+/* line 324, C:/Users/Manut/Desktop/curso/mmxbr/scss/style.scss */
+.fimDoSite {
+  background-color: #222;
+  height: 80px;
+  color: #4e4e4e;
+}
+
+/* line 329, C:/Users/Manut/Desktop/curso/mmxbr/scss/style.scss */
+.fimDoSite a {
+  color: #6e6e6e;
+}
+
+/* line 332, C:/Users/Manut/Desktop/curso/mmxbr/scss/style.scss */
+.fimDoSite p {
+  padding-top: 10px;
+}
+
+/* RESPONSIVO Tablet*/
+@media screen and (min-width: 760px) and (max-width: 1279px) {
+  /* line 112, C:/Users/Manut/Desktop/curso/mmxbr/scss/_grid.scss */
+  /* line 5, C:/Users/Manut/Desktop/curso/mmxbr/scss/_responsiveTablet.scss */
+  nav ul li {
+    font-size: 1.7em;
+    margin: 0 10px;
+  }
+  /* line 14, C:/Users/Manut/Desktop/curso/mmxbr/scss/_responsiveTablet.scss */
+  .titulo img {
+    width: 100%;
+  }
+  /* line 17, C:/Users/Manut/Desktop/curso/mmxbr/scss/_responsiveTablet.scss */
+  .titulo {
+    margin: 0;
+  }
+  /* line 21, C:/Users/Manut/Desktop/curso/mmxbr/scss/_responsiveTablet.scss */
+  .rodape {
+    height: 650px;
+  }
+}
+
+/* RESPONSIVO Smartphone*/
+@media screen and (max-width: 759px) {
+  /* line 127, C:/Users/Manut/Desktop/curso/mmxbr/scss/_grid.scss */
+  /* line 4, C:/Users/Manut/Desktop/curso/mmxbr/scss/_responsiveMobile.scss */
+  body {
+    background-color: gray;
+  }
+  /* line 8, C:/Users/Manut/Desktop/curso/mmxbr/scss/_responsiveMobile.scss */
+  .introducao h1 {
+    color: #fff;
+    font-size: 70px;
+    font-weight: 200;
+    font-family: 'Lato-HairLine';
+  }
+  /* line 15, C:/Users/Manut/Desktop/curso/mmxbr/scss/_responsiveMobile.scss */
+  .showcase h3 {
+    font-size: 2em;
+  }
+  /* line 18, C:/Users/Manut/Desktop/curso/mmxbr/scss/_responsiveMobile.scss */
+  .showcase {
+    height: 450px;
+  }
+  /* line 23, C:/Users/Manut/Desktop/curso/mmxbr/scss/_responsiveMobile.scss */
+  .rodape {
+    background-color: #2f2f2f;
+    height: 1100px;
+  }
+  /* line 28, C:/Users/Manut/Desktop/curso/mmxbr/scss/_responsiveMobile.scss */
+  .contato {
+    margin-top: 50px;
+  }
 }
 
 /*# sourceMappingURL=../css/style.map */

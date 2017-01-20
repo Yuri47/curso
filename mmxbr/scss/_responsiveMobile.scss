@@ -1,0 +1,32 @@
+/* RESPONSIVO Smartphone*/
+@media screen and (max-width: 759px) {
+  /* line 127, C:/Users/Manut/Desktop/curso/mmxbr/scss/_grid.scss */
+    body {
+        background-color: gray;
+        
+    }
+    .introducao h1 { 
+    color: #fff; 
+    font-size: 70px;   
+    font-weight: 200;
+    font-family: 'Lato-HairLine';
+      
+}
+    .showcase h3 {
+    font-size: 2em;
+}
+    .showcase { 
+ 
+    height: 450px;
+    
+} 
+    .rodape {
+    background-color: #2f2f2f;
+    height: 1100px;
+   
+}
+    .contato {
+        margin-top: 50px;
+    }
+}
+ 
