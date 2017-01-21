@@ -1,10 +1,7 @@
 /* RESPONSIVO Smartphone*/
 @media screen and (max-width: 759px) {
   /* line 127, C:/Users/Manut/Desktop/curso/mmxbr/scss/_grid.scss */
-    body {
-        background-color: gray;
-        
-    }
+    
     .introducao h1 { 
     color: #fff; 
     font-size: 70px;   
@@ -28,5 +25,40 @@
     .contato {
         margin-top: 50px;
     }
+    .container {
+        overflow: hidden;
+    }
+    .grid-4 {
+        max-width: 100%;
+    }
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+    
+    .introducao h1 { 
+    color: #fff; 
+    font-size: 3em;   
+    font-weight: 200;
+    font-family: 'Lato-HairLine';
+        
+}
+    .container-menu {
+    
+    left: 0%;
+    width: 100%;    
+}
+    .titulo h1 {
+        font-size: 4em;
+    }
+    .fimDoSite {
+    background-color: #222;
+    height: 110px;
+    color: #4e4e4e;
+}
+    form {
+        padding-bottom: 10px;
+    }
+    
 }
  
