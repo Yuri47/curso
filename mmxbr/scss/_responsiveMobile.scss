@@ -2,6 +2,15 @@
 @media screen and (max-width: 759px) {
   /* line 127, C:/Users/Manut/Desktop/curso/mmxbr/scss/_grid.scss */
     
+    .introducao {
+ 
+   background-image: url(../img/bgmobile.jpg)  no-repeat center center fixed; 
+    }
+    .showcase { 
+   background-image: url(../img/bgmobile.jpg); 
+   
+} 
+    
     .introducao h1 { 
     color: #fff; 
     font-size: 70px;   
@@ -111,11 +120,45 @@
 	display: none;
 }
     
+    
+    //FUNÇÕES QUANDO PRESSIONAR O BOTÃO
     #menu-tgl:checked ~ .menuDrop {
 	  height: 350px;
         transition: .5s;
           
 }
+    
+    #menu-tgl:checked ~ .menuDrop .menu-btn::after  {
+        content: '';
+        display: block;
+        height: 4px;
+        margin-top: 6px;
+         
+        position: relative;
+        transition: transform .2s ease;
+        
+        
+}
+    #menu-tgl:checked  ~ .menuDrop .menu-btn::after {
+        margin-top: 0px;
+         top: 2px;
+	transform: rotate(45deg);
+    }
+     #menu-tgl:checked  ~ .menuDrop .menu-btn {
+        border-top-color: transparent;
+    }
+    
+    #menu-tgl:checked  ~ .menuDrop .menu-btn::before {
+        margin-top: 0px;
+       top: 6px;
+	transform: rotate(135deg);
+         
+    }
+    
+    
+    //FIM DAS FUNÇÕES DO BOTAO
+    
+    
     #menu-tgl ~ .menuDrop .menu-btn {
        display: block;
 	color: #f2f2f2;
