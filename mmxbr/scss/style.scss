@@ -1,3 +1,16 @@
+/*
+Theme Name: Macromix
+Theme URI: http://macromixbr.com
+Author: Yuri Alexsander
+Author URI: http://macromixbr.com
+Description: Site for Macromix Informática.
+Version: 1.0
+
+Text Domain: MMXBR
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
 @import 'reset';
 @import 'grid';
 
@@ -348,9 +361,10 @@ hr {
     display: none;
 }
 
-
+@import 'dicas';
 @import 'responsiveTablet';
 @import 'responsiveMobile';
+
 
 
 

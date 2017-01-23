@@ -1,8 +1,22 @@
+@charset "UTF-8";
+/*
+Theme Name: Macromix
+Theme URI: http://macromixbr.com
+Author: Yuri Alexsander
+Author URI: http://macromixbr.com
+Description: Site for Macromix Informática.
+Version: 1.0
+
+Text Domain: MMXBR
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
 */
-/* line 6, C:/Users/YuriNT/Desktop/curso/mmxbr/scss/_reset.scss */
+/* line 6, C:/Users/Manut/Desktop/curso/mmxbr/scss/_reset.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -25,106 +39,106 @@ time, mark, audio, video {
 }
 
 /* HTML5 display-role reset for older browsers */
-/* line 27, C:/Users/YuriNT/Desktop/curso/mmxbr/scss/_reset.scss */
+/* line 27, C:/Users/Manut/Desktop/curso/mmxbr/scss/_reset.scss */
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
   display: block;
 }
 
-/* line 31, C:/Users/YuriNT/Desktop/curso/mmxbr/scss/_reset.scss */
+/* line 31, C:/Users/Manut/Desktop/curso/mmxbr/scss/_reset.scss */
 body {
   line-height: 1;
 }
 
-/* line 34, C:/Users/YuriNT/Desktop/curso/mmxbr/scss/_reset.scss */
+/* line 34, C:/Users/Manut/Desktop/curso/mmxbr/scss/_reset.scss */
 ol, ul {
   list-style: none;
 }
 
-/* line 37, C:/Users/YuriNT/Desktop/curso/mmxbr/scss/_reset.scss */
+/* line 37, C:/Users/Manut/Desktop/curso/mmxbr/scss/_reset.scss */
 blockquote, q {
   quotes: none;
 }
 
-/* line 40, C:/Users/YuriNT/Desktop/curso/mmxbr/scss/_reset.scss */
+/* line 40, C:/Users/Manut/Desktop/curso/mmxbr/scss/_reset.scss */
 blockquote:before, blockquote:after,
 q:before, q:after {
   content: '';
   content: none;
 }
 
-/* line 45, C:/Users/YuriNT/Desktop/curso/mmxbr/scss/_reset.scss */
+/* line 45, C:/Users/Manut/Desktop/curso/mmxbr/scss/_reset.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-/* line 9, C:/Users/YuriNT/Desktop/curso/mmxbr/scss/_grid.scss */
+/* line 9, C:/Users/Manut/Desktop/curso/mmxbr/scss/_grid.scss */
 *, *::after, *::before {
   box-sizing: border-box;
 }
 
-/* line 48, C:/Users/YuriNT/Desktop/curso/mmxbr/scss/_grid.scss */
+/* line 48, C:/Users/Manut/Desktop/curso/mmxbr/scss/_grid.scss */
 .grid-1 {
   width: calc(8.33333% - 20px);
 }
 
-/* line 48, C:/Users/YuriNT/Desktop/curso/mmxbr/scss/_grid.scss */
+/* line 48, C:/Users/Manut/Desktop/curso/mmxbr/scss/_grid.scss */
 .grid-2 {
   width: calc(16.66667% - 20px);
 }
 
-/* line 48, C:/Users/YuriNT/Desktop/curso/mmxbr/scss/_grid.scss */
+/* line 48, C:/Users/Manut/Desktop/curso/mmxbr/scss/_grid.scss */
 .grid-3 {
   width: calc(25% - 20px);
 }
 
-/* line 48, C:/Users/YuriNT/Desktop/curso/mmxbr/scss/_grid.scss */
+/* line 48, C:/Users/Manut/Desktop/curso/mmxbr/scss/_grid.scss */
 .grid-4 {
   width: calc(33.33333% - 20px);
 }
 
-/* line 48, C:/Users/YuriNT/Desktop/curso/mmxbr/scss/_grid.scss */
+/* line 48, C:/Users/Manut/Desktop/curso/mmxbr/scss/_grid.scss */
 .grid-5 {
   width: calc(41.66667% - 20px);
 }
 
-/* line 48, C:/Users/YuriNT/Desktop/curso/mmxbr/scss/_grid.scss */
+/* line 48, C:/Users/Manut/Desktop/curso/mmxbr/scss/_grid.scss */
 .grid-6 {
   width: calc(50% - 20px);
 }
 
-/* line 48, C:/Users/YuriNT/Desktop/curso/mmxbr/scss/_grid.scss */
+/* line 48, C:/Users/Manut/Desktop/curso/mmxbr/scss/_grid.scss */
 .grid-7 {
   width: calc(58.33333% - 20px);
 }
 
-/* line 48, C:/Users/YuriNT/Desktop/curso/mmxbr/scss/_grid.scss */
+/* line 48, C:/Users/Manut/Desktop/curso/mmxbr/scss/_grid.scss */
 .grid-8 {
   width: calc(66.66667% - 20px);
 }
 
-/* line 48, C:/Users/YuriNT/Desktop/curso/mmxbr/scss/_grid.scss */
+/* line 48, C:/Users/Manut/Desktop/curso/mmxbr/scss/_grid.scss */
 .grid-9 {
   width: calc(75% - 20px);
 }
 
-/* line 48, C:/Users/YuriNT/Desktop/curso/mmxbr/scss/_grid.scss */
+/* line 48, C:/Users/Manut/Desktop/curso/mmxbr/scss/_grid.scss */
 .grid-10 {
   width: calc(83.33333% - 20px);
 }
 
-/* line 48, C:/Users/YuriNT/Desktop/curso/mmxbr/scss/_grid.scss */
+/* line 48, C:/Users/Manut/Desktop/curso/mmxbr/scss/_grid.scss */
 .grid-11 {
   width: calc(91.66667% - 20px);
 }
 
-/* line 48, C:/Users/YuriNT/Desktop/curso/mmxbr/scss/_grid.scss */
+/* line 48, C:/Users/Manut/Desktop/curso/mmxbr/scss/_grid.scss */
 .grid-12 {
   width: calc(100% - 20px);
 }
 
-/* line 68, C:/Users/YuriNT/Desktop/curso/mmxbr/scss/_grid.scss */
+/* line 68, C:/Users/Manut/Desktop/curso/mmxbr/scss/_grid.scss */
 [class^="grid-"] {
   float: left;
   min-height: 1px;
@@ -133,7 +147,7 @@ table {
 }
 
 @media screen and (max-width: 759px) {
-  /* line 68, C:/Users/YuriNT/Desktop/curso/mmxbr/scss/_grid.scss */
+  /* line 68, C:/Users/Manut/Desktop/curso/mmxbr/scss/_grid.scss */
   [class^="grid-"] {
     width: 100%;
     float: none;
@@ -142,74 +156,74 @@ table {
   }
 }
 
-/* line 75, C:/Users/YuriNT/Desktop/curso/mmxbr/scss/_grid.scss */
+/* line 75, C:/Users/Manut/Desktop/curso/mmxbr/scss/_grid.scss */
 .offset-1 {
   margin-left: calc(8.33333% + 10px);
 }
 
-/* line 75, C:/Users/YuriNT/Desktop/curso/mmxbr/scss/_grid.scss */
+/* line 75, C:/Users/Manut/Desktop/curso/mmxbr/scss/_grid.scss */
 .offset-2 {
   margin-left: calc(16.66667% + 10px);
 }
 
-/* line 75, C:/Users/YuriNT/Desktop/curso/mmxbr/scss/_grid.scss */
+/* line 75, C:/Users/Manut/Desktop/curso/mmxbr/scss/_grid.scss */
 .offset-3 {
   margin-left: calc(25% + 10px);
 }
 
-/* line 75, C:/Users/YuriNT/Desktop/curso/mmxbr/scss/_grid.scss */
+/* line 75, C:/Users/Manut/Desktop/curso/mmxbr/scss/_grid.scss */
 .offset-4 {
   margin-left: calc(33.33333% + 10px);
 }
 
-/* line 75, C:/Users/YuriNT/Desktop/curso/mmxbr/scss/_grid.scss */
+/* line 75, C:/Users/Manut/Desktop/curso/mmxbr/scss/_grid.scss */
 .offset-5 {
   margin-left: calc(41.66667% + 10px);
 }
 
-/* line 75, C:/Users/YuriNT/Desktop/curso/mmxbr/scss/_grid.scss */
+/* line 75, C:/Users/Manut/Desktop/curso/mmxbr/scss/_grid.scss */
 .offset-6 {
   margin-left: calc(50% + 10px);
 }
 
-/* line 75, C:/Users/YuriNT/Desktop/curso/mmxbr/scss/_grid.scss */
+/* line 75, C:/Users/Manut/Desktop/curso/mmxbr/scss/_grid.scss */
 .offset-7 {
   margin-left: calc(58.33333% + 10px);
 }
 
-/* line 75, C:/Users/YuriNT/Desktop/curso/mmxbr/scss/_grid.scss */
+/* line 75, C:/Users/Manut/Desktop/curso/mmxbr/scss/_grid.scss */
 .offset-8 {
   margin-left: calc(66.66667% + 10px);
 }
 
-/* line 75, C:/Users/YuriNT/Desktop/curso/mmxbr/scss/_grid.scss */
+/* line 75, C:/Users/Manut/Desktop/curso/mmxbr/scss/_grid.scss */
 .offset-9 {
   margin-left: calc(75% + 10px);
 }
 
-/* line 75, C:/Users/YuriNT/Desktop/curso/mmxbr/scss/_grid.scss */
+/* line 75, C:/Users/Manut/Desktop/curso/mmxbr/scss/_grid.scss */
 .offset-10 {
   margin-left: calc(83.33333% + 10px);
 }
 
-/* line 75, C:/Users/YuriNT/Desktop/curso/mmxbr/scss/_grid.scss */
+/* line 75, C:/Users/Manut/Desktop/curso/mmxbr/scss/_grid.scss */
 .offset-11 {
   margin-left: calc(91.66667% + 10px);
 }
 
-/* line 75, C:/Users/YuriNT/Desktop/curso/mmxbr/scss/_grid.scss */
+/* line 75, C:/Users/Manut/Desktop/curso/mmxbr/scss/_grid.scss */
 .offset-12 {
   margin-left: calc(100% + 10px);
 }
 
 @media screen and (max-width: 759px) {
-  /* line 82, C:/Users/YuriNT/Desktop/curso/mmxbr/scss/_grid.scss */
+  /* line 82, C:/Users/Manut/Desktop/curso/mmxbr/scss/_grid.scss */
   .offset-1, .offset-2, .offset-3, .offset-4, .offset-5, .offset-6, .offset-7, .offset-8, .offset-9, .offset-10, .offset-11, .offset-12 {
     margin-left: 0px;
   }
 }
 
-/* line 112, C:/Users/YuriNT/Desktop/curso/mmxbr/scss/_grid.scss */
+/* line 112, C:/Users/Manut/Desktop/curso/mmxbr/scss/_grid.scss */
 .container {
   max-width: 1280px;
   margin: 0px auto;
@@ -217,14 +231,14 @@ table {
 }
 
 @media screen and (min-width: 760px) and (max-width: 1279px) {
-  /* line 112, C:/Users/YuriNT/Desktop/curso/mmxbr/scss/_grid.scss */
+  /* line 112, C:/Users/Manut/Desktop/curso/mmxbr/scss/_grid.scss */
   .container {
     max-width: 760px;
   }
 }
 
 @media screen and (max-width: 759px) {
-  /* line 112, C:/Users/YuriNT/Desktop/curso/mmxbr/scss/_grid.scss */
+  /* line 112, C:/Users/Manut/Desktop/curso/mmxbr/scss/_grid.scss */
   .container {
     max-width: 100%;
     padding-left: 10px;
@@ -232,14 +246,14 @@ table {
   }
 }
 
-/* line 90, C:/Users/YuriNT/Desktop/curso/mmxbr/scss/_grid.scss */
+/* line 90, C:/Users/Manut/Desktop/curso/mmxbr/scss/_grid.scss */
 .container::after, .container::before {
   content: '';
   display: table;
   clear: both;
 }
 
-/* line 127, C:/Users/YuriNT/Desktop/curso/mmxbr/scss/_grid.scss */
+/* line 127, C:/Users/Manut/Desktop/curso/mmxbr/scss/_grid.scss */
 .row {
   position: relative;
   margin-left: -10px;
@@ -247,14 +261,14 @@ table {
 }
 
 @media screen and (max-width: 759px) {
-  /* line 127, C:/Users/YuriNT/Desktop/curso/mmxbr/scss/_grid.scss */
+  /* line 127, C:/Users/Manut/Desktop/curso/mmxbr/scss/_grid.scss */
   .row {
     margin-left: 0px;
     margin-right: 0px;
   }
 }
 
-/* line 90, C:/Users/YuriNT/Desktop/curso/mmxbr/scss/_grid.scss */
+/* line 90, C:/Users/Manut/Desktop/curso/mmxbr/scss/_grid.scss */
 .row::after, .row::before {
   content: '';
   display: table;
@@ -276,25 +290,25 @@ table {
   src: url("../font/Lato-Light.ttf") format("truetype");
 }
 
-/* line 17, C:/Users/YuriNT/Desktop/curso/mmxbr/scss/style.scss */
+/* line 30, C:/Users/Manut/Desktop/curso/mmxbr/scss/style.scss */
 *, *:before, *:after {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
 
-/* line 22, C:/Users/YuriNT/Desktop/curso/mmxbr/scss/style.scss */
+/* line 35, C:/Users/Manut/Desktop/curso/mmxbr/scss/style.scss */
 div {
   display: block;
 }
 
-/* line 25, C:/Users/YuriNT/Desktop/curso/mmxbr/scss/style.scss */
+/* line 38, C:/Users/Manut/Desktop/curso/mmxbr/scss/style.scss */
 html,
 body {
   height: 100%;
 }
 
-/* line 31, C:/Users/YuriNT/Desktop/curso/mmxbr/scss/style.scss */
+/* line 44, C:/Users/Manut/Desktop/curso/mmxbr/scss/style.scss */
 body {
   background-color: #f2f2f2;
   font-family: "Lato";
@@ -306,17 +320,17 @@ body {
   text-align: center;
 }
 
-/* line 43, C:/Users/YuriNT/Desktop/curso/mmxbr/scss/style.scss */
+/* line 56, C:/Users/Manut/Desktop/curso/mmxbr/scss/style.scss */
 .container {
   width: 1280px;
 }
 
-/* line 47, C:/Users/YuriNT/Desktop/curso/mmxbr/scss/style.scss */
+/* line 60, C:/Users/Manut/Desktop/curso/mmxbr/scss/style.scss */
 .menu-mobile {
   display: none;
 }
 
-/* line 51, C:/Users/YuriNT/Desktop/curso/mmxbr/scss/style.scss */
+/* line 64, C:/Users/Manut/Desktop/curso/mmxbr/scss/style.scss */
 nav {
   background-color: transparent;
   height: 50px;
@@ -327,7 +341,7 @@ nav {
   z-index: 65956;
 }
 
-/* line 63, C:/Users/YuriNT/Desktop/curso/mmxbr/scss/style.scss */
+/* line 76, C:/Users/Manut/Desktop/curso/mmxbr/scss/style.scss */
 nav ul li {
   display: inline-block;
   font-size: 1.9em;
@@ -336,7 +350,7 @@ nav ul li {
   padding-top: 10px;
 }
 
-/* line 73, C:/Users/YuriNT/Desktop/curso/mmxbr/scss/style.scss */
+/* line 86, C:/Users/Manut/Desktop/curso/mmxbr/scss/style.scss */
 nav ul li a {
   text-decoration: none;
   color: #e4e4e4;
@@ -344,12 +358,12 @@ nav ul li a {
   font-family: 'Lato-HairLine';
 }
 
-/* line 81, C:/Users/YuriNT/Desktop/curso/mmxbr/scss/style.scss */
+/* line 94, C:/Users/Manut/Desktop/curso/mmxbr/scss/style.scss */
 nav ul li:hover {
   background-color: rgba(0, 0, 0, 0.3);
 }
 
-/* line 88, C:/Users/YuriNT/Desktop/curso/mmxbr/scss/style.scss */
+/* line 101, C:/Users/Manut/Desktop/curso/mmxbr/scss/style.scss */
 .introducao {
   background-image: url(../img/imgHeader.jpg);
   background-position: center;
@@ -358,7 +372,7 @@ nav ul li:hover {
   min-height: 100%;
 }
 
-/* line 102, C:/Users/YuriNT/Desktop/curso/mmxbr/scss/style.scss */
+/* line 115, C:/Users/Manut/Desktop/curso/mmxbr/scss/style.scss */
 .introducao h1 {
   color: #f2f2f2;
   font-size: 120px;
@@ -366,14 +380,14 @@ nav ul li:hover {
   font-family: 'Lato-HairLine';
 }
 
-/* line 109, C:/Users/YuriNT/Desktop/curso/mmxbr/scss/style.scss */
+/* line 122, C:/Users/Manut/Desktop/curso/mmxbr/scss/style.scss */
 .introducao h3 {
   color: #f2f2f2;
   font-size: 30px;
   font-weight: 200;
 }
 
-/* line 117, C:/Users/YuriNT/Desktop/curso/mmxbr/scss/style.scss */
+/* line 130, C:/Users/Manut/Desktop/curso/mmxbr/scss/style.scss */
 .container-menu {
   position: absolute;
   top: 50%;
@@ -385,14 +399,14 @@ nav ul li:hover {
   transform: translateY(-50%);
 }
 
-/* line 129, C:/Users/YuriNT/Desktop/curso/mmxbr/scss/style.scss */
+/* line 142, C:/Users/Manut/Desktop/curso/mmxbr/scss/style.scss */
 h3 {
   font-family: 'Lato-Light';
   font-size: 36px;
   font-weight: 100;
 }
 
-/* line 136, C:/Users/YuriNT/Desktop/curso/mmxbr/scss/style.scss */
+/* line 149, C:/Users/Manut/Desktop/curso/mmxbr/scss/style.scss */
 h4 {
   font-family: 'Lato-Light';
   font-size: 24px;
@@ -401,47 +415,47 @@ h4 {
   padding-top: 5px;
 }
 
-/* line 143, C:/Users/YuriNT/Desktop/curso/mmxbr/scss/style.scss */
+/* line 156, C:/Users/Manut/Desktop/curso/mmxbr/scss/style.scss */
 p {
   font-family: 'Lato-Light';
   font-size: 18px;
   line-height: 27px;
 }
 
-/* line 149, C:/Users/YuriNT/Desktop/curso/mmxbr/scss/style.scss */
+/* line 162, C:/Users/Manut/Desktop/curso/mmxbr/scss/style.scss */
 .titulo {
   margin: 0;
 }
 
-/* line 153, C:/Users/YuriNT/Desktop/curso/mmxbr/scss/style.scss */
+/* line 166, C:/Users/Manut/Desktop/curso/mmxbr/scss/style.scss */
 .secao {
   margin-top: 50px;
 }
 
-/* line 159, C:/Users/YuriNT/Desktop/curso/mmxbr/scss/style.scss */
+/* line 172, C:/Users/Manut/Desktop/curso/mmxbr/scss/style.scss */
 .titulo p {
   text-align: left;
   padding-top: 20px;
 }
 
-/* line 163, C:/Users/YuriNT/Desktop/curso/mmxbr/scss/style.scss */
+/* line 176, C:/Users/Manut/Desktop/curso/mmxbr/scss/style.scss */
 .titulo img {
   width: 400px;
 }
 
-/* line 166, C:/Users/YuriNT/Desktop/curso/mmxbr/scss/style.scss */
+/* line 179, C:/Users/Manut/Desktop/curso/mmxbr/scss/style.scss */
 .titulo button {
   margin-top: 20px;
 }
 
-/* line 169, C:/Users/YuriNT/Desktop/curso/mmxbr/scss/style.scss */
+/* line 182, C:/Users/Manut/Desktop/curso/mmxbr/scss/style.scss */
 .titulo h1 {
   font-size: 80px;
   font-family: 'Lato-HairLine';
   padding-bottom: 30px;
 }
 
-/* line 174, C:/Users/YuriNT/Desktop/curso/mmxbr/scss/style.scss */
+/* line 187, C:/Users/Manut/Desktop/curso/mmxbr/scss/style.scss */
 .botao {
   font-size: 22px;
   font-family: 'Lato';
@@ -452,7 +466,7 @@ p {
   transition: 0.5s;
 }
 
-/* line 183, C:/Users/YuriNT/Desktop/curso/mmxbr/scss/style.scss */
+/* line 196, C:/Users/Manut/Desktop/curso/mmxbr/scss/style.scss */
 .botao:hover {
   background-color: rgba(0, 0, 0, 0.5);
   transition: 0.5s;
@@ -460,7 +474,7 @@ p {
   color: #f2f2f2;
 }
 
-/* line 189, C:/Users/YuriNT/Desktop/curso/mmxbr/scss/style.scss */
+/* line 202, C:/Users/Manut/Desktop/curso/mmxbr/scss/style.scss */
 hr {
   display: block;
   height: 1px;
@@ -471,26 +485,26 @@ hr {
   margin-bottom: 60px;
 }
 
-/* line 199, C:/Users/YuriNT/Desktop/curso/mmxbr/scss/style.scss */
+/* line 212, C:/Users/Manut/Desktop/curso/mmxbr/scss/style.scss */
 .secao p {
   padding-left: 10px;
   padding-right: 10px;
 }
 
-/* line 203, C:/Users/YuriNT/Desktop/curso/mmxbr/scss/style.scss */
+/* line 216, C:/Users/Manut/Desktop/curso/mmxbr/scss/style.scss */
 .imgServicoDiv {
   height: 130px;
   overflow: hidden;
 }
 
-/* line 207, C:/Users/YuriNT/Desktop/curso/mmxbr/scss/style.scss */
+/* line 220, C:/Users/Manut/Desktop/curso/mmxbr/scss/style.scss */
 .imgServico {
   max-height: 120px;
   max-width: auto;
   margin-top: 10px;
 }
 
-/* line 214, C:/Users/YuriNT/Desktop/curso/mmxbr/scss/style.scss */
+/* line 227, C:/Users/Manut/Desktop/curso/mmxbr/scss/style.scss */
 .servico {
   display: inline-block;
   float: none;
@@ -499,26 +513,26 @@ hr {
   border: solid 2px #f2f2f2;
 }
 
-/* line 223, C:/Users/YuriNT/Desktop/curso/mmxbr/scss/style.scss */
+/* line 236, C:/Users/Manut/Desktop/curso/mmxbr/scss/style.scss */
 .servico:hover {
   border: solid 2px #333;
 }
 
-/* line 227, C:/Users/YuriNT/Desktop/curso/mmxbr/scss/style.scss */
+/* line 240, C:/Users/Manut/Desktop/curso/mmxbr/scss/style.scss */
 .servico a {
   text-decoration: none;
   color: #333;
   font-family: 'Lato-HairLine';
 }
 
-/* line 232, C:/Users/YuriNT/Desktop/curso/mmxbr/scss/style.scss */
+/* line 245, C:/Users/Manut/Desktop/curso/mmxbr/scss/style.scss */
 .tituloh3 {
   margin-top: 10px;
   margin-bottom: 10px;
   height: 72px;
 }
 
-/* line 238, C:/Users/YuriNT/Desktop/curso/mmxbr/scss/style.scss */
+/* line 251, C:/Users/Manut/Desktop/curso/mmxbr/scss/style.scss */
 .descricaoP {
   height: 85px;
   margin-top: 10px;
@@ -526,18 +540,18 @@ hr {
   overflow: hidden;
 }
 
-/* line 247, C:/Users/YuriNT/Desktop/curso/mmxbr/scss/style.scss */
+/* line 260, C:/Users/Manut/Desktop/curso/mmxbr/scss/style.scss */
 .botaoServico {
   margin-top: 10px;
   margin-bottom: 10px;
 }
 
-/* line 251, C:/Users/YuriNT/Desktop/curso/mmxbr/scss/style.scss */
+/* line 264, C:/Users/Manut/Desktop/curso/mmxbr/scss/style.scss */
 .row {
   text-align: center;
 }
 
-/* line 255, C:/Users/YuriNT/Desktop/curso/mmxbr/scss/style.scss */
+/* line 268, C:/Users/Manut/Desktop/curso/mmxbr/scss/style.scss */
 .showcase {
   background-image: url(../img/imgHeader.jpg);
   padding-top: 60px;
@@ -548,19 +562,19 @@ hr {
   position: relative;
 }
 
-/* line 267, C:/Users/YuriNT/Desktop/curso/mmxbr/scss/style.scss */
+/* line 280, C:/Users/Manut/Desktop/curso/mmxbr/scss/style.scss */
 .showcase h3 {
   color: #f2f2f2;
 }
 
-/* line 270, C:/Users/YuriNT/Desktop/curso/mmxbr/scss/style.scss */
+/* line 283, C:/Users/Manut/Desktop/curso/mmxbr/scss/style.scss */
 .showcase .botao {
   color: #f2f2f2;
   border: solid 2px #f2f2f2;
   margin-top: 20px;
 }
 
-/* line 275, C:/Users/YuriNT/Desktop/curso/mmxbr/scss/style.scss */
+/* line 288, C:/Users/Manut/Desktop/curso/mmxbr/scss/style.scss */
 .showcase-container {
   position: absolute;
   top: 50%;
@@ -572,13 +586,13 @@ hr {
   transform: translateY(-50%);
 }
 
-/* line 285, C:/Users/YuriNT/Desktop/curso/mmxbr/scss/style.scss */
+/* line 298, C:/Users/Manut/Desktop/curso/mmxbr/scss/style.scss */
 .rodape {
   background-color: #2f2f2f;
   height: 600px;
 }
 
-/* line 290, C:/Users/YuriNT/Desktop/curso/mmxbr/scss/style.scss */
+/* line 303, C:/Users/Manut/Desktop/curso/mmxbr/scss/style.scss */
 .rodape .container {
   padding-top: 50px;
   color: #f2f2f2;
@@ -587,88 +601,162 @@ hr {
   line-height: 24px;
 }
 
-/* line 298, C:/Users/YuriNT/Desktop/curso/mmxbr/scss/style.scss */
+/* line 311, C:/Users/Manut/Desktop/curso/mmxbr/scss/style.scss */
 .rodape .container h3 {
   line-height: 32px;
 }
 
-/* line 301, C:/Users/YuriNT/Desktop/curso/mmxbr/scss/style.scss */
+/* line 314, C:/Users/Manut/Desktop/curso/mmxbr/scss/style.scss */
 .container address {
   max-width: 340px;
   padding: 20px 0;
 }
 
-/* line 309, C:/Users/YuriNT/Desktop/curso/mmxbr/scss/style.scss */
+/* line 322, C:/Users/Manut/Desktop/curso/mmxbr/scss/style.scss */
 .formulario input {
   width: 100%;
   padding-left: 10px;
   height: 2.5em;
 }
 
-/* line 314, C:/Users/YuriNT/Desktop/curso/mmxbr/scss/style.scss */
+/* line 327, C:/Users/Manut/Desktop/curso/mmxbr/scss/style.scss */
 .formulario textarea {
   width: 100%;
   padding-left: 10px;
   height: 6em;
 }
 
-/* line 322, C:/Users/YuriNT/Desktop/curso/mmxbr/scss/style.scss */
+/* line 335, C:/Users/Manut/Desktop/curso/mmxbr/scss/style.scss */
 .form-group {
   width: 90%;
   padding: 10px 0px;
 }
 
-/* line 326, C:/Users/YuriNT/Desktop/curso/mmxbr/scss/style.scss */
+/* line 339, C:/Users/Manut/Desktop/curso/mmxbr/scss/style.scss */
 .formulario .botao {
   color: #f2f2f2;
   border: solid 2px #f2f2f2;
   padding-top: 10px;
 }
 
-/* line 331, C:/Users/YuriNT/Desktop/curso/mmxbr/scss/style.scss */
+/* line 344, C:/Users/Manut/Desktop/curso/mmxbr/scss/style.scss */
 .fimDoSite {
   background-color: #222;
   height: 80px;
   color: #4e4e4e;
 }
 
-/* line 336, C:/Users/YuriNT/Desktop/curso/mmxbr/scss/style.scss */
+/* line 349, C:/Users/Manut/Desktop/curso/mmxbr/scss/style.scss */
 .fimDoSite a {
   color: #6e6e6e;
 }
 
-/* line 339, C:/Users/YuriNT/Desktop/curso/mmxbr/scss/style.scss */
+/* line 352, C:/Users/Manut/Desktop/curso/mmxbr/scss/style.scss */
 .fimDoSite p {
   padding-top: 10px;
 }
 
-/* line 343, C:/Users/YuriNT/Desktop/curso/mmxbr/scss/style.scss */
+/* line 356, C:/Users/Manut/Desktop/curso/mmxbr/scss/style.scss */
 #menu-tgl {
   display: none;
 }
 
-/* line 347, C:/Users/YuriNT/Desktop/curso/mmxbr/scss/style.scss */
+/* line 360, C:/Users/Manut/Desktop/curso/mmxbr/scss/style.scss */
 .tituloMenu {
   display: none;
+}
+
+/* line 1, C:/Users/Manut/Desktop/curso/mmxbr/scss/_dicas.scss */
+.imgDicasDiv {
+  height: 200px;
+  overflow: hidden;
+}
+
+/* line 5, C:/Users/Manut/Desktop/curso/mmxbr/scss/_dicas.scss */
+.imgDicas {
+  max-height: 200px;
+  max-width: auto;
+  margin-top: 10px;
+}
+
+/* line 10, C:/Users/Manut/Desktop/curso/mmxbr/scss/_dicas.scss */
+.dicas {
+  display: inline-block;
+  float: none;
+  width: 400px;
+  margin-bottom: 20px;
+  border: solid 2px #f2f2f2;
+}
+
+/* line 19, C:/Users/Manut/Desktop/curso/mmxbr/scss/_dicas.scss */
+.dicas:hover {
+  border: solid 2px #333;
+}
+
+/* line 23, C:/Users/Manut/Desktop/curso/mmxbr/scss/_dicas.scss */
+.dicas a {
+  text-decoration: none;
+  color: #333;
+  font-family: 'Lato-HairLine';
+}
+
+/* line 28, C:/Users/Manut/Desktop/curso/mmxbr/scss/_dicas.scss */
+.post {
+  max-width: 58%;
+  margin: 0 auto;
+}
+
+/* line 32, C:/Users/Manut/Desktop/curso/mmxbr/scss/_dicas.scss */
+.post p {
+  text-align: left;
+  font-size: 18px;
+  line-height: 27px;
+  margin-bottom: 20px;
+  text-indent: 3em;
+}
+
+/* line 40, C:/Users/Manut/Desktop/curso/mmxbr/scss/_dicas.scss */
+.data {
+  color: #2f2f2f;
+  color: #333;
+  font-family: 'Lato-Light';
+}
+
+/* line 45, C:/Users/Manut/Desktop/curso/mmxbr/scss/_dicas.scss */
+.post strong {
+  font-weight: 600;
+}
+
+/* line 48, C:/Users/Manut/Desktop/curso/mmxbr/scss/_dicas.scss */
+.post a {
+  color: #999;
+  font-family: 'Lato';
+  text-decoration: none;
+}
+
+/* line 53, C:/Users/Manut/Desktop/curso/mmxbr/scss/_dicas.scss */
+.post h3 {
+  text-align: left;
+  margin-bottom: 10px;
 }
 
 /* RESPONSIVO Tablet*/
 @media screen and (min-width: 760px) and (max-width: 1279px) {
   /* line 112, C:/Users/Manut/Desktop/curso/mmxbr/scss/_grid.scss */
-  /* line 5, C:/Users/YuriNT/Desktop/curso/mmxbr/scss/_responsiveTablet.scss */
+  /* line 5, C:/Users/Manut/Desktop/curso/mmxbr/scss/_responsiveTablet.scss */
   nav ul li {
     font-size: 1.7em;
     margin: 0 10px;
   }
-  /* line 14, C:/Users/YuriNT/Desktop/curso/mmxbr/scss/_responsiveTablet.scss */
+  /* line 14, C:/Users/Manut/Desktop/curso/mmxbr/scss/_responsiveTablet.scss */
   .titulo img {
     width: 100%;
   }
-  /* line 17, C:/Users/YuriNT/Desktop/curso/mmxbr/scss/_responsiveTablet.scss */
+  /* line 17, C:/Users/Manut/Desktop/curso/mmxbr/scss/_responsiveTablet.scss */
   .titulo {
     margin: 0;
   }
-  /* line 21, C:/Users/YuriNT/Desktop/curso/mmxbr/scss/_responsiveTablet.scss */
+  /* line 21, C:/Users/Manut/Desktop/curso/mmxbr/scss/_responsiveTablet.scss */
   .rodape {
     height: 650px;
   }
@@ -677,99 +765,99 @@ hr {
 /* RESPONSIVO Smartphone*/
 @media screen and (max-width: 759px) {
   /* line 127, C:/Users/Manut/Desktop/curso/mmxbr/scss/_grid.scss */
-  /* line 5, C:/Users/YuriNT/Desktop/curso/mmxbr/scss/_responsiveMobile.scss */
+  /* line 5, C:/Users/Manut/Desktop/curso/mmxbr/scss/_responsiveMobile.scss */
   .introducao {
     background-image: url(../img/bgmobile.jpg) no-repeat center center fixed;
   }
-  /* line 9, C:/Users/YuriNT/Desktop/curso/mmxbr/scss/_responsiveMobile.scss */
+  /* line 9, C:/Users/Manut/Desktop/curso/mmxbr/scss/_responsiveMobile.scss */
   .showcase {
     background-image: url(../img/bgmobile.jpg);
   }
-  /* line 14, C:/Users/YuriNT/Desktop/curso/mmxbr/scss/_responsiveMobile.scss */
+  /* line 14, C:/Users/Manut/Desktop/curso/mmxbr/scss/_responsiveMobile.scss */
   .introducao h1 {
     color: #fff;
     font-size: 70px;
     font-weight: 200;
     font-family: 'Lato-HairLine';
   }
-  /* line 21, C:/Users/YuriNT/Desktop/curso/mmxbr/scss/_responsiveMobile.scss */
+  /* line 21, C:/Users/Manut/Desktop/curso/mmxbr/scss/_responsiveMobile.scss */
   .showcase h3 {
     font-size: 2em;
   }
-  /* line 24, C:/Users/YuriNT/Desktop/curso/mmxbr/scss/_responsiveMobile.scss */
+  /* line 24, C:/Users/Manut/Desktop/curso/mmxbr/scss/_responsiveMobile.scss */
   .showcase {
     height: 450px;
   }
-  /* line 29, C:/Users/YuriNT/Desktop/curso/mmxbr/scss/_responsiveMobile.scss */
+  /* line 29, C:/Users/Manut/Desktop/curso/mmxbr/scss/_responsiveMobile.scss */
   .rodape {
     background-color: #2f2f2f;
     height: 1100px;
   }
-  /* line 34, C:/Users/YuriNT/Desktop/curso/mmxbr/scss/_responsiveMobile.scss */
+  /* line 34, C:/Users/Manut/Desktop/curso/mmxbr/scss/_responsiveMobile.scss */
   nav ul li:hover {
     background-color: transparent;
   }
-  /* line 40, C:/Users/YuriNT/Desktop/curso/mmxbr/scss/_responsiveMobile.scss */
+  /* line 40, C:/Users/Manut/Desktop/curso/mmxbr/scss/_responsiveMobile.scss */
   .contato {
     margin-top: 50px;
   }
-  /* line 43, C:/Users/YuriNT/Desktop/curso/mmxbr/scss/_responsiveMobile.scss */
+  /* line 43, C:/Users/Manut/Desktop/curso/mmxbr/scss/_responsiveMobile.scss */
   .container {
     overflow: hidden;
   }
-  /* line 46, C:/Users/YuriNT/Desktop/curso/mmxbr/scss/_responsiveMobile.scss */
+  /* line 46, C:/Users/Manut/Desktop/curso/mmxbr/scss/_responsiveMobile.scss */
   .grid-4 {
     max-width: 100%;
   }
-  /* line 49, C:/Users/YuriNT/Desktop/curso/mmxbr/scss/_responsiveMobile.scss */
+  /* line 49, C:/Users/Manut/Desktop/curso/mmxbr/scss/_responsiveMobile.scss */
   img {
     max-width: 100%;
     height: auto;
   }
-  /* line 54, C:/Users/YuriNT/Desktop/curso/mmxbr/scss/_responsiveMobile.scss */
+  /* line 54, C:/Users/Manut/Desktop/curso/mmxbr/scss/_responsiveMobile.scss */
   .introducao h1 {
     color: #fff;
     font-size: 3em;
     font-weight: 200;
     font-family: 'Lato-HairLine';
   }
-  /* line 61, C:/Users/YuriNT/Desktop/curso/mmxbr/scss/_responsiveMobile.scss */
+  /* line 61, C:/Users/Manut/Desktop/curso/mmxbr/scss/_responsiveMobile.scss */
   .container-menu {
     left: 0%;
     width: 100%;
   }
-  /* line 66, C:/Users/YuriNT/Desktop/curso/mmxbr/scss/_responsiveMobile.scss */
+  /* line 66, C:/Users/Manut/Desktop/curso/mmxbr/scss/_responsiveMobile.scss */
   .titulo h1 {
     font-size: 4em;
   }
-  /* line 69, C:/Users/YuriNT/Desktop/curso/mmxbr/scss/_responsiveMobile.scss */
+  /* line 69, C:/Users/Manut/Desktop/curso/mmxbr/scss/_responsiveMobile.scss */
   .fimDoSite {
     background-color: #222;
     height: 110px;
     color: #4e4e4e;
   }
-  /* line 74, C:/Users/YuriNT/Desktop/curso/mmxbr/scss/_responsiveMobile.scss */
+  /* line 74, C:/Users/Manut/Desktop/curso/mmxbr/scss/_responsiveMobile.scss */
   form {
     padding-bottom: 10px;
   }
-  /* line 78, C:/Users/YuriNT/Desktop/curso/mmxbr/scss/_responsiveMobile.scss */
+  /* line 78, C:/Users/Manut/Desktop/curso/mmxbr/scss/_responsiveMobile.scss */
   .menuDrop {
     min-width: 100%;
     height: 50px;
     transition: .5s;
     background-color: rgba(0, 0, 0, 0.5);
   }
-  /* line 86, C:/Users/YuriNT/Desktop/curso/mmxbr/scss/_responsiveMobile.scss */
+  /* line 86, C:/Users/Manut/Desktop/curso/mmxbr/scss/_responsiveMobile.scss */
   .menu .container {
     padding-left: 0px;
     padding-right: 0px;
   }
-  /* line 91, C:/Users/YuriNT/Desktop/curso/mmxbr/scss/_responsiveMobile.scss */
+  /* line 91, C:/Users/Manut/Desktop/curso/mmxbr/scss/_responsiveMobile.scss */
   .menuDrop li {
     padding-top: 20px;
     display: list-item;
   }
-  /* line 95, C:/Users/YuriNT/Desktop/curso/mmxbr/scss/_responsiveMobile.scss */
+  /* line 95, C:/Users/Manut/Desktop/curso/mmxbr/scss/_responsiveMobile.scss */
   .icone {
     background-color: aqua;
     float: right;
@@ -777,14 +865,14 @@ hr {
     padding: 0 18px;
     cursor: pointer;
   }
-  /* line 102, C:/Users/YuriNT/Desktop/curso/mmxbr/scss/_responsiveMobile.scss */
+  /* line 102, C:/Users/Manut/Desktop/curso/mmxbr/scss/_responsiveMobile.scss */
   .nav li::after {
     content: '';
     display: block;
     padding-top: 10px;
     border-bottom: 1px solid #f2f2f2;
   }
-  /* line 109, C:/Users/YuriNT/Desktop/curso/mmxbr/scss/_responsiveMobile.scss */
+  /* line 109, C:/Users/Manut/Desktop/curso/mmxbr/scss/_responsiveMobile.scss */
   .tituloMenu {
     display: block;
     color: #f2f2f2;
@@ -794,16 +882,16 @@ hr {
     padding-top: 8px;
     padding-left: 12%;
   }
-  /* line 119, C:/Users/YuriNT/Desktop/curso/mmxbr/scss/_responsiveMobile.scss */
+  /* line 119, C:/Users/Manut/Desktop/curso/mmxbr/scss/_responsiveMobile.scss */
   #menu-tgl {
     display: none;
   }
-  /* line 125, C:/Users/YuriNT/Desktop/curso/mmxbr/scss/_responsiveMobile.scss */
+  /* line 125, C:/Users/Manut/Desktop/curso/mmxbr/scss/_responsiveMobile.scss */
   #menu-tgl:checked ~ .menuDrop {
     height: 350px;
     transition: .5s;
   }
-  /* line 131, C:/Users/YuriNT/Desktop/curso/mmxbr/scss/_responsiveMobile.scss */
+  /* line 131, C:/Users/Manut/Desktop/curso/mmxbr/scss/_responsiveMobile.scss */
   #menu-tgl:checked ~ .menuDrop .menu-btn::after {
     content: '';
     display: block;
@@ -812,23 +900,23 @@ hr {
     position: relative;
     transition: transform .2s ease;
   }
-  /* line 142, C:/Users/YuriNT/Desktop/curso/mmxbr/scss/_responsiveMobile.scss */
+  /* line 142, C:/Users/Manut/Desktop/curso/mmxbr/scss/_responsiveMobile.scss */
   #menu-tgl:checked ~ .menuDrop .menu-btn::after {
     margin-top: 0px;
     top: 2px;
     transform: rotate(45deg);
   }
-  /* line 147, C:/Users/YuriNT/Desktop/curso/mmxbr/scss/_responsiveMobile.scss */
+  /* line 147, C:/Users/Manut/Desktop/curso/mmxbr/scss/_responsiveMobile.scss */
   #menu-tgl:checked ~ .menuDrop .menu-btn {
     border-top-color: transparent;
   }
-  /* line 151, C:/Users/YuriNT/Desktop/curso/mmxbr/scss/_responsiveMobile.scss */
+  /* line 151, C:/Users/Manut/Desktop/curso/mmxbr/scss/_responsiveMobile.scss */
   #menu-tgl:checked ~ .menuDrop .menu-btn::before {
     margin-top: 0px;
     top: 6px;
     transform: rotate(135deg);
   }
-  /* line 162, C:/Users/YuriNT/Desktop/curso/mmxbr/scss/_responsiveMobile.scss */
+  /* line 162, C:/Users/Manut/Desktop/curso/mmxbr/scss/_responsiveMobile.scss */
   #menu-tgl ~ .menuDrop .menu-btn {
     display: block;
     color: #f2f2f2;
@@ -841,7 +929,7 @@ hr {
     cursor: pointer;
     -webkit-backface-visibility: hidden;
   }
-  /* line 174, C:/Users/YuriNT/Desktop/curso/mmxbr/scss/_responsiveMobile.scss */
+  /* line 174, C:/Users/Manut/Desktop/curso/mmxbr/scss/_responsiveMobile.scss */
   #menu-tgl ~ .menuDrop .menu-btn::after, .menuDrop .menu-btn::before {
     content: '';
     display: block;
@@ -850,6 +938,18 @@ hr {
     background: currentColor;
     position: relative;
     transition: transform .2s ease;
+  }
+  /* line 185, C:/Users/Manut/Desktop/curso/mmxbr/scss/_responsiveMobile.scss */
+  .post {
+    max-width: 100%;
+  }
+  /* line 189, C:/Users/Manut/Desktop/curso/mmxbr/scss/_responsiveMobile.scss */
+  .post p {
+    text-align: left;
+    font-size: 18px;
+    line-height: 27px;
+    margin-bottom: 20px;
+    text-indent: 3em;
   }
 }
 
